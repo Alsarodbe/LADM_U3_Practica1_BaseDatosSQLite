@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#C8DFBE"
+    tools:context=".InsertarActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Añadir evidencia"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/evidencia"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/galeria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#73CF4C"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:text="Cargar imagen"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/insertarEvi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8CD66D"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:text="Agregar"/>
+
+        <Button
+            android:id="@+id/volverIns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#58C62B"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:text="Volver" />
+    </LinearLayout>
+
+</LinearLayout>
